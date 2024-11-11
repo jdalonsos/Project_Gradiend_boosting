@@ -102,4 +102,3 @@ plt.plot(historical_returns.index[-len(y_test):], combined_pred, label='Combined
 plt.title('Return Predictions Using LightGBM and Neural Network')
 plt.legend()
 plt.show()
-print("Hola")
